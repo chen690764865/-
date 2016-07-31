@@ -37,6 +37,7 @@
 		333ACB521D4E4E5800985B54 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 333ACB3A1D4E4E5800985B54 /* UIImageView+WebCache.m */; };
 		333ACB531D4E4E5800985B54 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 333ACB3C1D4E4E5800985B54 /* UIView+WebCacheOperation.m */; };
 		333ACB561D4E4FAB00985B54 /* CCAppCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 333ACB551D4E4FAB00985B54 /* CCAppCell.m */; };
+		333ACB591D4E52EF00985B54 /* CCAppInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 333ACB581D4E52EF00985B54 /* CCAppInfoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,8 @@
 		333ACB3C1D4E4E5800985B54 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		333ACB541D4E4FAB00985B54 /* CCAppCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAppCell.h; sourceTree = "<group>"; };
 		333ACB551D4E4FAB00985B54 /* CCAppCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAppCell.m; sourceTree = "<group>"; };
+		333ACB571D4E52EF00985B54 /* CCAppInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAppInfoModel.h; sourceTree = "<group>"; };
+		333ACB581D4E52EF00985B54 /* CCAppInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAppInfoModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 				333ACAF31D4E4CF900985B54 /* main.m */,
 				333ACB541D4E4FAB00985B54 /* CCAppCell.h */,
 				333ACB551D4E4FAB00985B54 /* CCAppCell.m */,
+				333ACB571D4E52EF00985B54 /* CCAppInfoModel.h */,
+				333ACB581D4E52EF00985B54 /* CCAppInfoModel.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -308,6 +313,7 @@
 				333ACB401D4E4E5800985B54 /* AFSecurityPolicy.m in Sources */,
 				333ACB441D4E4E5800985B54 /* MKAnnotationView+WebCache.m in Sources */,
 				333ACB421D4E4E5800985B54 /* AFURLResponseSerialization.m in Sources */,
+				333ACB591D4E52EF00985B54 /* CCAppInfoModel.m in Sources */,
 				333ACB4C1D4E4E5800985B54 /* SDWebImagePrefetcher.m in Sources */,
 				333ACB4B1D4E4E5800985B54 /* SDWebImageManager.m in Sources */,
 				333ACAFA1D4E4CF900985B54 /* ViewController.m in Sources */,

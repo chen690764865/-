@@ -4,7 +4,7 @@
 //
 //  Created by chenchen on 16/7/31.
 //  Copyright © 2016年 chenchen. All rights reserved.
-//
+// https://raw.githubusercontent.com/yinqiaoyin/SimpleDemo/master/apps.json
 
 #import "ViewController.h"
 
@@ -17,13 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor redColor];
+//    self.view.backgroundColor = [UIColor redColor];
+    
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
 
 @end
